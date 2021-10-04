@@ -27,80 +27,17 @@ font-weight: bold;
 .uppercase { text-transform: uppercase; }
 
 /* ---------- LOGIN ---------- */
-#login {
-margin: 50px auto;
-width: 300px;
-}
-form fieldset input[type="text"], input[type="password"] {
-background-color: #e5e5e5;
-border: none;
-border-radius: 3px;
--moz-border-radius: 3px;
--webkit-border-radius: 3px;
-color: #5a5656;
-font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-font-size: 14px;
-height: 50px;
-outline: none;
-padding: 0px 10px;
-width: 280px;
--webkit-appearance:none;
-}
-.login {
-background-color: #008dde;
-border: none;
-border-radius: 3px;
--moz-border-radius: 3px;
--webkit-border-radius: 3px;
-color: #c04e4e;
-cursor: pointer;
-font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-height: 50px;
-text-transform: uppercase;
-width: 300px;
--webkit-appearance:none;
-}
-
-form fieldset a {
-color: #220000;
-font-size: 15px;
-}
-form fieldset b{
-  font-size: 20px;
-  color:blue;
- 
-}
-form fieldset a:hover { text-decoration: underline; }
-.btn-round {
-background-color: #5a5656;
-border-radius: 50%;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-color: #0c9cf0;
-display: block;
-font-size: 12px;
-height: 50px;
-line-height: 50px;
-margin: 30px 125px;
-text-align: center;
-text-transform: uppercase;
-width: 50px;
-}
 
 .newaccount {
 background-color: rgb(137, 193, 226);
-border: none;
-color: rgb(255, 255, 255);
-cursor: pointer;
-height: 40px;
-text-transform: uppercase;
-width: 295px;
+color: white;
 text-align: center;
 }
 .fb {
   background-color: #3B5998;
   color: white;
   text-align: center;
+  
 }
 
 .twitter {
@@ -115,53 +52,39 @@ text-align: center;
   text-align: center;
 }
 .btn {
-  width: 90%;
-  padding: 10px;
+  width: 100%;
+  padding: 12px;
   border: none;
   border-radius: 4px;
+  margin:5px 0px;
   opacity: 0.85;
   display: inline-block;
   font-size: 17px;
   line-height: 20px;
-  margin: 5px;
   text-decoration: none;
-  
 }
 .col {
   margin-top: 5px;
-  margin-left: inherit;
+  margin:center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 500px;
+  margin-left: 500px;
 }
 
 </style>
 </head>
 <body background-image="w88.jpg" a link="black" vlink="black">
-<div id="login">
-<h1 style="background-color:orange"><marquee behavior="alternate"><b><strong>Welcome.</strong></b> Please login.</marquee></h1>
-<form action="javascript:void(0);" method="get">
-<fieldset>
-<p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
-<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
-<p><a href="#">Forgot Password?</a></p>
-   <button><b href= "track.html">Login </b></button>
-</fieldset>
-</form>
-<p><span class="btn-round">or</span></p>
 <div class="col">
+  <h1 style="background-color:orange"><marquee behavior="alternate"><b><strong>Welcome.</strong></b> Please Signup.</marquee></h1>
     <a href="https://www.facebook.com/login/" class="fb btn">
-      <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-     </a>
+      <i class="fa fa-facebook fa-fw"></i> Signup with Facebook</a>
     <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fi%2Fflow%2Flogin%3Ffbclid%3DIwAR2yNiYL-IJKt0PT3coMkd7yUf5SfEwlAJuaw3bZxsup47r3y722_PT2pzU&h=AT0HAaQVPEFjnoukdW3T_K8lQ_zFnvqDTZnaorVINdMTpwxUuoRijopwTrBCBAxqqmaZHJoP8kmyEXKC29B67cY2njjjOI3PJQDLNsv0PfY6NKIUTPUPxy3gpNElFKhczSobUHYUStD5_TJNfN8a6g" class="twitter btn">
-      <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-    </a>
+      <i class="fa fa-twitter fa-fw"></i> Signup with Twitter</a>
     <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="google btn"><i class="fa fa-google fa-fw">
-      </i> Login with Google+
-    </a>
-  </div>
+      </i> Signup with Google+</a>
+    <a href="#" class="newaccount btn"><i class="material-icons"></i>create a new account</a>
 
-<p>
-<button class="newaccount">create a new account</button>
-
-</p>
 </div> <!-- end login -->
 </body>
-</html>
+</html
