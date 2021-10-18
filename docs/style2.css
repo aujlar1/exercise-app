@@ -135,7 +135,7 @@ nav{
 }
 
 .signup-right-col h1{
-	font-size: 90px;
+	font-size: 50px;
 }
 .signup-right-col h2{
 	font-size: 45px;
@@ -263,9 +263,6 @@ nav{
 #footer p{
 	font-size: 25px;
 }
-
-
-
 .form{
 
 	width: 70%;
@@ -282,9 +279,6 @@ textarea{
 	padding: 10px;
 	margin-bottom: 10px;
 }
-
-
-
 .c_btn{
 	background: black;
 	color: white;
@@ -293,58 +287,7 @@ textarea{
 	border:none;
 }
 
-.coaches {
-    background: #ddd url(images/coaches_bg.jpg);
-    background-size: 100% 100%;
-    margin-top: 100px;
-}
-.coaches_content {
-    height: 660px;
-    margin-left: 50px;
-    position: relative;
-}
-.coach_item{
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
 
-    overflow:hidden;
-    float: left;
-    position: absolute;
-}
-.coaches h3 {
-    left: 20px;
-    position: absolute;
-    right: 20px;
-    text-align: center;
-    top: calc(50% - 20px);
-}
 
-.coaches_content .no_photo,footer {
-    background: linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
-    background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
-    background: -moz-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
-    background: -o-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
-}
-.no_photo{text-align: center;}
-/* Photo Sizing */
-.size_110{width: 110px; height: 110px; }
-.size_120{width: 120px; height: 120px;}
-.size_135{width: 135px; height: 135px;}
-.size_180{width: 180px; height: 180px;}
-.size_195{width: 195px; height: 195px;}
-.size_270{width: 270px; height: 270px;}
-/* Photo Positioning */
-.coach_item:nth-child(1) {top: 100px; left: 0px;}
-.coach_item:nth-child(2) {top: 97px; left: 150px;}
-.coach_item:nth-child(3) {top: 65px; left: 365px;}
-.coach_item:nth-child(4) {top: 162px; right: 650px;}
-.coach_item:nth-child(5) {top: 175px; right: 760px;}
-.coach_item:nth-child(6) {top: 162px; right: 955px;}
-.coach_item:nth-child(7) {top: 246px; right: 38px;}
-.coach_item:nth-child(8) {top: 290px; right: 190px;}
-.coach_item:nth-child(9) {top: 360px; right: 400px;}
-.coach_item:nth-child(10) {top: 316px; right: 594px;}
-.coach_item:nth-child(11) {top: 405px; right: 795px;}
-.coach_item:nth-child(12) {top: 290px; right: 940px;}
-.coach_item:nth-child(13) {top: 408px; right: 0px;}
+
+

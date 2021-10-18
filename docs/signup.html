@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style type="text/css">
 body {
-background-image:url(images/w88.jpg);
+background-image:url(images/log.jpg);
 background-repeat:no repeat;
 background-attachment: fixed; 
 background-size:100% 100%;
@@ -32,7 +32,7 @@ margin: 50px auto;
 width: 300px;
 }
 form fieldset input[type="text"], input[type="password"] {
-background-color: #e5e5e5;
+background-color: #fafafa;
 border: none;
 border-radius: 3px;
 -moz-border-radius: 3px;
@@ -62,21 +62,21 @@ width: 300px;
 }
 
 form fieldset a {
-color: #220000;
+color: #866060;
 font-size: 15px;
 }
 form fieldset b{
   font-size: 20px;
-  color:blue;
+  color:rgb(7, 7, 7);
  
 }
 form fieldset a:hover { text-decoration: underline; }
 .btn-round {
-background-color: #5a5656;
+background-color: #755454;
 border-radius: 50%;
 -moz-border-radius: 50%;
 -webkit-border-radius: 50%;
-color: #0c9cf0;
+color: #090a0a;
 display: block;
 font-size: 12px;
 height: 50px;
@@ -86,6 +86,28 @@ text-align: center;
 text-transform: uppercase;
 width: 50px;
 }
+
+.newaccount {
+background-color: rgb(4, 248, 216);
+border: none;
+color: rgb(31, 26, 26);
+cursor: pointer;
+height: 40px;
+text-transform: uppercase;
+width: 310px;
+text-align: center;
+}
+.con {
+  background-color: #3b8298;
+  border: none;
+  display: inline-block;;
+  cursor:none;
+  height: 40px;
+  text-decoration: uppercase;
+  width:295px;
+  text-align: center;
+}
+
 .fb {
   background-color: #3B5998;
   color: white;
@@ -121,18 +143,30 @@ width: 50px;
   margin-left: inherit;
 }
 
+
+
 </style>
 </head>
-<body background-image="w88.jpg" a link="black" vlink="black">
+<body background-image="log.jpg" a link="black" vlink="black">
 <div id="login">
-<h1 style="background-color:orange"><marquee behavior="alternate"><b><strong>Welcome.</strong></b> Please login.</marquee></h1>
+<h1 style="background-color:orange"><marquee behavior="alternate"><b><strong>Welcome</strong></b> Please Singup.</marquee></h1>
 <form action="javascript:void(0);" method="get">
 <fieldset>
+<p><input type="text" required value="first name" onBlur="if(this.value=='')this.value='first name'" onFocus="if(this.value=='first name')this.value='' "></p>
+<p><input type="text" required value="last name" onBlur="if(this.value=='')this.value='last name'" onFocus="if(this.value=='last name')this.value='' "></p>
+<label for="Date of Birth">
+  Date of Birth:
+  <input type="date" name="date">
+  <p><input type="text" required value="mobile number" onBlur="if(this.value=='')this.value='mobile number'" onFocus="if(this.value=='mobile number')this.value='' "></p>
 <p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
-<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
-<p><a href="#">Forgot Password?</a></p>
-   <button><b href= "track.html">Login </b></button>
+<p><input type="password"placeholder="Enter Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<p><input type="password"placeholder="Re-enter Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
 </fieldset>
+<div class="con">
+  <button class="newaccount">
+    <a href= "login.html" class="newaccount ">
+      <i class="fa fa-user-circle"></i>Submit</a></button>
+</div>
 </form>
 <p><span class="btn-round">or</span></p>
 <div class="col">
@@ -146,6 +180,7 @@ width: 50px;
       </i> Login with Google+
     </a>
   </div>
+
 
 </div> <!-- end login -->
 </body>
