@@ -1,4 +1,26 @@
 {
+
+  "name": "exercise-app",
+  "description": "http://experienceap.herokuapp.com/docs/",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aujlar1/exercise-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aujlar1/exercise-app/issues"
+  },
+  "homepage": "https://github.com/aujlar1/exercise-app#readme",
   "dependencies": {
     "lodash": "^4.17.21"
   }
