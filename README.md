@@ -1,2 +1,2 @@
 # exercise-app
-http://milestone2021.herokuapp.com/docs/
+http://experienceap.herokuapp.com/docs/
